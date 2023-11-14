@@ -1,0 +1,68 @@
+:root {
+  --moderate-blue: hsl(238, 40%, 52%);
+  --soft-red: hsl(358, 79%, 66%);
+  --light-grayish-blue: hsl(239, 57%, 85%);
+  --pale-red: hsl(357, 100%, 86%);
+  --dark-blue: hsl(212, 24%, 26%);
+  --grayish-blue: hsl(211, 10%, 45%);
+  --light-gray: hsl(223, 19%, 93%);
+  --very-light-gray: hsl(228, 33%, 97%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--very-light-gray);
+  font-family: 'Rubik', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment-section {
+  background-color: var(--white);
+  width: 800px;
+  height: 175px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blue; */
+  min-width: 100px;
+}
+
+.score-section {
+  background-color: var(--light-gray);
+  width: 45px;
+  height: 105px;
+  border-radius: 10px;
+}
+
+.right-side--header {
+  display: flex;
+}
+
+.username {
+  color: var(--dark-blue);
+  font-weight: 700;
+}
+
+.createdAt {
+  color: var(--grayish-blue);
+  font-weight: 500;
+}
+
+.content {
+  color: var(--grayish-blue);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
