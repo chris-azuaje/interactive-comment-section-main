@@ -18,6 +18,12 @@ body {
   align-items: center;
 }
 
+.profile-pic {
+  width: 35px;
+  height: 35px;
+  margin: auto;
+}
+
 .comment-section {
   background-color: var(--white);
   width: 800px;
@@ -41,8 +47,22 @@ body {
   border-radius: 10px;
 }
 
+.right-side {
+  padding: 25px 25px 25px 0;
+}
+
 .right-side--header {
   display: flex;
+  justify-content: space-between;
+}
+
+.right-side--header-left {
+  display: flex;
+}
+
+.username,
+.createdAt {
+  margin-left: 15px;
 }
 
 .username {
